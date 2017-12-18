@@ -1,8 +1,8 @@
 body {
-  background-color: #ffffff;
+  background-color: #000000;
   position: relative;
 }
-.escudo-1 {
+.fundo-1 {
   position: absolute;
   top: 81px;
   left: 435px;
@@ -13,59 +13,67 @@ body {
   border-radius: 50%;
 }
 
-.escudo-2 {
+.fundo-2 {
   position: absolute;
   top: 135px;
   left: 489px;
   width: 366px;
   height: 366px;
-  background-color: #FFFFFF;
+  background-color: #000000;
   z-index: 2;
   border-radius: 50%;
 }
 
-.escudo-3 {
+.barra {
   position: absolute;
-  top: 174px;
-  left: 528px;
-  width: 288px;
-  height: 288px;
+  top: 135px;
+  left: 652px;
+  width: 40px;
+  height: 366px;
   background-color: #FF0000;
   z-index: 3;
-  border-radius: 50%;
 }
 
-.escudo-4 {
-  position: absolute;
-  top: 209px;
-  left: 563px;
-  width: 218px;
-  height: 218px;
-  background-color: #000080;
-  z-index: 4;
-  border-radius: 50%;
-}
-
-.estrela {
+.olho-1 {
    margin: 50px 0;
    position: relative;
    display: block;
-   color: red;
-   top: 275px;
-   left: 575px;
+   color: white;
+   top: 285px;
+   left: 725px;
    width: 0px;
    height: 0px;
-   border-right:  100px solid transparent;
-   border-bottom: 70px  solid white;
-   border-left:   100px solid transparent;
-   -moz-transform:    rotate(35deg);
-   -webkit-transform: rotate(35deg);
-   -ms-transform:     rotate(35deg);
-   -o-transform:      rotate(35deg);
+   border-right:  55px solid transparent;
+   border-bottom: 40px  solid white;
+   border-left:   55px solid transparent;
+   -webkit-transform: rotate(142deg);
+   -moz-transform:    rotate(142deg);
+   -ms-transform:     rotate(142deg);
+   -o-transform:      rotate(142deg);
+   z-index: 4;
+}
+
+.olho-2 {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: white;
+   top: 198px;
+   left: 505px;
+   width: 0px;
+   height: 0px;
+   border-right:  55px solid transparent;
+   border-bottom: 40px  solid white;
+   border-left:   55px solid transparent;
+   -webkit-transform: rotate(215deg);
+   -moz-transform:    rotate(215deg);
+   -ms-transform:     rotate(215deg);
+   -o-transform:      rotate(215deg);
    z-index: 5;
 }
-.estrela:before {
-   border-bottom: 80px solid white;
+
+/*.triangulo-1:before {
+   border-bottom: 80px solid yellow;
    border-left: 30px solid transparent;
    border-right: 30px solid transparent;
    position: absolute;
@@ -75,13 +83,14 @@ body {
    left: -65px;
    display: block;
    content: '';
-   -webkit-transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
    -moz-transform:    rotate(-35deg);
    -ms-transform:     rotate(-35deg);
    -o-transform:      rotate(-35deg);
-   z-index: 6;
-}
-.estrela:after {
+
+}*/
+
+/* .triangulo:after {
    position: absolute;
    display: block;
    color: red;
@@ -97,5 +106,4 @@ body {
    -ms-transform:     rotate(-70deg);
    -o-transform:      rotate(-70deg);
    content: '';
-   z-index: 7;
-}
+} */

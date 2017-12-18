@@ -4,7 +4,7 @@ body {
 }
 .base {
   position: absolute;
-  top: 288px;
+  top: 188px;
   left: 336px;
   width: 644px;
   height: 374px;
@@ -14,7 +14,7 @@ body {
 
 .lat-esquerda, .lat-direita {
   position: absolute;
-  top: 288px;
+  top: 188px;
   width: 374px;
   height: 374px;
   border-radius: 50%;
@@ -40,22 +40,22 @@ body {
 }
 
 .base-1{
-  top: 555px;
+  top: 455px;
   left: 254px;
   z-index: 4;
 }
 .base-2{
-  top: 584px;
+  top: 484px;
   left: 428px;
   z-index: 5;
 }
 .base-3 {
-  top: 584px;
+  top: 484px;
   left: 658px;
   z-index: 6;
 }
 .base-4 {
-  top: 555px;
+  top: 455px;
   left: 834px;
   z-index: 7;
 }
@@ -65,7 +65,7 @@ body {
   height: 314px;
   background-color: #ffd200;
   border-radius: 50%;
-  top: 89px;
+  top: -11px;
 }
 .topo-1{
   left: 316px;
@@ -81,7 +81,7 @@ body {
   height: 74px;
   background-color: #ffd200;
   border-radius: 50%;
-  top: 252px;
+  top: 152px;
   left: 627px;
   z-index: 10;
 }
